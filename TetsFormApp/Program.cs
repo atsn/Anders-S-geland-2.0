@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace TetsFormApp
@@ -16,7 +13,11 @@ namespace TetsFormApp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            Form1 form = new Form1();
             Application.Run(new Form1());
+
+
+
         }
     }
 }
